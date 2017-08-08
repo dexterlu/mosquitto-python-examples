@@ -1,16 +1,18 @@
 # README
-This document describes the source code for the Paho MQTT python client library.
+This document describes the source code for the Paho MQTT python client library.  
 
 ## MQTT
-The MQTT protocol is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol.
+The MQTT protocol is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol.  
 
 ### Installation
+```
 sudo apt-get install python-stdeb
 sudo apt install python-pip
 sudo pip install paho-mqtt
+```
 
 ### Usage
-Here is very simple example
+Here is very simple example  
 
 ### Publisher
 - edit the publisher.py
