@@ -21,7 +21,7 @@ if __name__ == '__main__':
     #client.connect("127.0.0.1", 1883, 60)
     client.connect("192.168.112.210", 1883, 60)
 
-    client.subscribe("home/light/state", 0)
+    client.subscribe("home/light/color", 0)
     client.subscribe("home/#", 0)
 
     while client.loop() == 0:
