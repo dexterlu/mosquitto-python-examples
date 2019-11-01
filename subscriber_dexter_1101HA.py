@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     #client.tls_set('root.ca', certfile='c1.crt', keyfile='c1.key')
     #client.connect("127.0.0.1", 1883, 60)
-    client.connect("192.168.112.210", 1883, 60)
+    client.connect("192.168.100.135", 1883, 60)
 
     client.subscribe("home/light/color", 0)
     client.subscribe("home/#", 0)

@@ -23,7 +23,7 @@ host = "localhost"
 if __name__ == '__main__':
     # publish a single message
     #publish.single(topic="kids/yolo", payload="just do it", hostname=host)
-    publish.single(topic="home/light/color", payload="red", hostname="192.168.112.129")
+    publish.single(topic="home/light/color", payload="red", hostname="192.168.100.135")
 
     # publish multiple messages
     publish.multiple(msgs, hostname=host)
